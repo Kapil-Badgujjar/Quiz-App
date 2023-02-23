@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    font-size: 2.2rem;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    text-align: center;
+    padding: 2px;
+    height: 12vh;
+
+}
+.container {
+    padding:3% 10%;
+    background-color: rgb(255, 247, 137);
+    height: 75vh;
+
+}
+.answerKey{
+    padding: 3px;
+    font-size: 2em;
+    visibility:hidden;
+}
+.whiteSheet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 90%;
+    height: 50vh;
+    padding: 5%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.813);
+}
+.Status{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(79, 214, 79);
+}
+.submit-button{
+    padding: 2px;
+    background-color:rgb(255, 234, 0);
+    font-size: 1.3em;
+    width:15%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.813);
+}
+.next-button{
+    padding: 2px;
+    background-color:rgb(117, 194, 249);
+    font-size: 1.3em;
+    width:15%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.813);
+}
+._show_answer-btn{
+    margin-left: 10px;
+    padding: 2px;
+    background-color:rgb(242, 141, 255);
+    font-size: 1.3em;
+    width:15%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.813);
+}
+._skip-btn{
+    margin-left: 10px;
+    padding: 2px;
+    background-color:rgb(249, 190, 117);
+    font-size: 1.3em;
+    width:15%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.813);
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.checkboxclass{
+    margin-left: 15px;
+}
+.options>div {
+    margin: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: gray
+}
+.answer-text{
+    padding-left: 15px;
+}
