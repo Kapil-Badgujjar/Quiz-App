@@ -107,6 +107,9 @@
         font-size: 2vh;
         width: 21%;
     }
+    .resultPage{
+        font-size: 1.5vw;
+    }
 }
 .options{
     display: flex;

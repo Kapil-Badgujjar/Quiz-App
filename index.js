@@ -229,15 +229,18 @@ function showResult(){
 
     let whiteboard = document.getElementById("whiteboard");
     let yourScore = document.createElement("h2");
+    yourScore.setAttribute("class","questionTitle");
     yourScore.innerHTML = "Your score: " + storedAnswers +" out of " + questionBank.length;
     whiteboard.appendChild(yourScore);
     for(let p=0; p<questionBank.length; p++){
         let temp=document.createElement("p");
         temp.innerHTML=questionBank[p].question;
+        temp.setAttribute("class","resultPage");
         let temp_ans=document.createElement("span");
         temp_ans.style.backgroundColor="lightgreen";
         temp_ans.innerHTML=createResultString(p);
         temp.appendChild(temp_ans);
+        temp_ans.setAttribute("class","resultPage");
         whiteboard.appendChild(temp);
     }
     let temp_btn = document.createElement("button");
